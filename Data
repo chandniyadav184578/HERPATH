@@ -1,0 +1,377 @@
+{
+ "_about": "Fictional sample after-visit notes.",
+ "visits": [
+  {
+   "id": "seed-v1",
+   "daysAgo": 40,
+   "top": "Cramps getting worse over two cycles and disturbed sleep. Suggested keeping a symptom diary for two more cycles.",
+   "tests": "Possible blood test if symptoms continue",
+   "nextInDays": 10
+  },
+  {
+   "id": "seed-v2",
+   "daysAgo": 118,
+   "top": "Routine check-up. No new concerns raised at the time.",
+   "tests": "",
+   "nextInDays": null
+  }
+ ]
+}
+{
+ "_about": "Fictional sample notifications.",
+ "notifs": [
+  {
+   "id": "seed-n1",
+   "hoursAgo": 50,
+   "title": "Entry saved",
+   "body": "Lower abdominal pain was saved to this browser.",
+   "kind": "success",
+   "read": false
+  },
+  {
+   "id": "seed-n2",
+   "hoursAgo": 26,
+   "title": "Follow-up visit noted",
+   "body": "A follow-up visit is listed in your appointment notes. Review your summary before you go.",
+   "kind": "info",
+   "read": false
+  },
+  {
+   "id": "seed-n3",
+   "hoursAgo": 216,
+   "title": "Gentle reminder",
+   "body": "You chose to be reminded. It had been 7 days since your previous entry.",
+   "kind": "reminder",
+   "read": true
+  },
+  {
+   "id": "seed-n4",
+   "hoursAgo": 600,
+   "title": "Welcome to HERPATH",
+   "body": "Record how you feel, spot changes over time and prepare for appointments.",
+   "kind": "info",
+   "read": true
+  }
+ ]
+}
+{
+ "_about": "Fictional demonstration profile. Not real personal or medical information.",
+ "profile": {
+  "name": "Aanya Rao"
+ },
+ "passport": {
+  "info": {
+   "blood": "O+",
+   "allergies": "Penicillin",
+   "meds": "Over-the-counter pain relief as needed",
+   "conds": "Period pain (self-reported)",
+   "vacc": "HPV series completed",
+   "ecn": "Meera Rao (sister)",
+   "ecp": "+91 90000 00000"
+  }
+ },
+ "preparation": {
+  "concern": "Period pain has become stronger over the last two cycles and is disturbing my sleep.",
+  "summary": "Cramps now start on day 1 and can last several hours. I have also had more broken sleep and low energy in the days before my period.",
+  "questions": [
+   "Could we discuss how long these symptoms have been occurring?",
+   "What should I record or bring to a follow-up appointment?",
+   "What should I do if my symptoms change before my next appointment?"
+  ],
+  "days": 90,
+  "sel": {
+   "health": true,
+   "name": true
+  }
+ },
+ "library": {
+  "read": [
+   "pp",
+   "prep",
+   "desc"
+  ],
+  "bookmarks": [
+   "pp",
+   "tl"
+  ]
+ }
+}
+{
+ "_about": "Fictional sample records for a demonstration profile. daysAgo is resolved to a real date when the data is first loaded.",
+ "entries": [
+  {
+   "id": "seed-01",
+   "daysAgo": 2,
+   "time": "21:30",
+   "cat": "Pain",
+   "name": "Lower abdominal pain",
+   "sev": 4,
+   "dur": "Several hours",
+   "freq": "Weekly",
+   "imp": [
+    "Work / class",
+    "Sleep"
+   ],
+   "cyc": "Day 2",
+   "notes": "Cramping built up through the afternoon and kept me awake until after midnight.",
+   "ctx": "Lower tummy"
+  },
+  {
+   "id": "seed-02",
+   "daysAgo": 3,
+   "time": "08:15",
+   "cat": "Pain",
+   "name": "Pelvic cramps",
+   "sev": 4,
+   "dur": "1–3 hours",
+   "freq": "Weekly",
+   "imp": [
+    "Work / class"
+   ],
+   "cyc": "Day 1",
+   "notes": "Had to leave a meeting early. A hot water bottle helped a little.",
+   "ctx": "Pelvis"
+  },
+  {
+   "id": "seed-03",
+   "daysAgo": 5,
+   "time": "22:10",
+   "cat": "Sleep",
+   "name": "Waking often",
+   "sev": 3,
+   "dur": "Overnight",
+   "freq": "Several times a week",
+   "imp": [
+    "Sleep",
+    "Daily tasks"
+   ],
+   "cyc": "Later in cycle",
+   "notes": "Woke three or four times and felt flat the next morning.",
+   "ctx": "Staying asleep"
+  },
+  {
+   "id": "seed-04",
+   "daysAgo": 9,
+   "time": "14:00",
+   "cat": "Fatigue / low energy",
+   "name": "Low energy",
+   "sev": 3,
+   "dur": "All day",
+   "freq": "Several times a week",
+   "imp": [
+    "Daily tasks",
+    "Exercise"
+   ],
+   "cyc": "Later in cycle",
+   "notes": "Skipped my usual walk. Only about five hours of sleep the night before.",
+   "ctx": "Short"
+  },
+  {
+   "id": "seed-05",
+   "daysAgo": 13,
+   "time": "11:20",
+   "cat": "Headache",
+   "name": "Headache",
+   "sev": 2,
+   "dur": "1–3 hours",
+   "freq": "Occasional",
+   "imp": [
+    "Work / class"
+   ],
+   "cyc": "Later in cycle",
+   "notes": "Dull ache behind the eyes after a long stretch at the screen.",
+   "ctx": "Behind the eyes"
+  },
+  {
+   "id": "seed-06",
+   "daysAgo": 19,
+   "time": "19:45",
+   "cat": "Mood / emotional",
+   "name": "Irritability",
+   "sev": 3,
+   "dur": "Several hours",
+   "freq": "Occasional",
+   "imp": [
+    "Relationships"
+   ],
+   "cyc": "Later in cycle",
+   "notes": "Short-tempered with family in the evening after a busy week.",
+   "ctx": "Stress"
+  },
+  {
+   "id": "seed-07",
+   "daysAgo": 24,
+   "time": "13:30",
+   "cat": "Digestive",
+   "name": "Bloating",
+   "sev": 2,
+   "dur": "Several hours",
+   "freq": "Occasional",
+   "imp": [
+    "Daily tasks"
+   ],
+   "cyc": "Later in cycle",
+   "notes": "Noticeable after lunch and settled by evening.",
+   "ctx": "After eating"
+  },
+  {
+   "id": "seed-08",
+   "daysAgo": 30,
+   "time": "20:40",
+   "cat": "Pain",
+   "name": "Lower abdominal pain",
+   "sev": 3,
+   "dur": "Several hours",
+   "freq": "Weekly",
+   "imp": [
+    "Sleep"
+   ],
+   "cyc": "Day 2",
+   "notes": "Dull, constant ache. Fell asleep later than usual.",
+   "ctx": "Lower tummy"
+  },
+  {
+   "id": "seed-09",
+   "daysAgo": 31,
+   "time": "09:00",
+   "cat": "Pain",
+   "name": "Pelvic cramps",
+   "sev": 3,
+   "dur": "1–3 hours",
+   "freq": "Weekly",
+   "imp": [
+    "Work / class"
+   ],
+   "cyc": "Day 1",
+   "notes": "Manageable, and I finished the working day.",
+   "ctx": "Pelvis"
+  },
+  {
+   "id": "seed-10",
+   "daysAgo": 36,
+   "time": "22:30",
+   "cat": "Sleep",
+   "name": "Trouble falling asleep",
+   "sev": 2,
+   "dur": "Overnight",
+   "freq": "Occasional",
+   "imp": [
+    "Sleep"
+   ],
+   "cyc": "Later in cycle",
+   "notes": "Mind busy about work; took about an hour to fall asleep.",
+   "ctx": "Falling asleep"
+  },
+  {
+   "id": "seed-11",
+   "daysAgo": 41,
+   "time": "15:10",
+   "cat": "Fatigue / low energy",
+   "name": "Low energy",
+   "sev": 2,
+   "dur": "All day",
+   "freq": "Weekly",
+   "imp": [
+    "Daily tasks"
+   ],
+   "cyc": "Later in cycle",
+   "notes": "Slow afternoon, better after a short walk.",
+   "ctx": "Good"
+  },
+  {
+   "id": "seed-12",
+   "daysAgo": 47,
+   "time": "10:05",
+   "cat": "Headache",
+   "name": "Migraine-like headache",
+   "sev": 3,
+   "dur": "Several hours",
+   "freq": "Occasional",
+   "imp": [
+    "Work / class",
+    "Daily tasks"
+   ],
+   "cyc": "Later in cycle",
+   "notes": "One-sided with light sensitivity. Rested in a dark room.",
+   "ctx": "One side"
+  },
+  {
+   "id": "seed-13",
+   "daysAgo": 55,
+   "time": "18:20",
+   "cat": "Digestive",
+   "name": "Nausea",
+   "sev": 2,
+   "dur": "1–3 hours",
+   "freq": "First time",
+   "imp": [],
+   "cyc": "Later in cycle",
+   "notes": "Mild queasiness in the evening, gone by bedtime.",
+   "ctx": "Not related"
+  },
+  {
+   "id": "seed-14",
+   "daysAgo": 58,
+   "time": "20:00",
+   "cat": "Pain",
+   "name": "Lower abdominal pain",
+   "sev": 2,
+   "dur": "1–3 hours",
+   "freq": "Weekly",
+   "imp": [],
+   "cyc": "Day 2",
+   "notes": "Mild ache, eased with rest.",
+   "ctx": "Lower tummy"
+  },
+  {
+   "id": "seed-15",
+   "daysAgo": 59,
+   "time": "08:30",
+   "cat": "Pain",
+   "name": "Pelvic cramps",
+   "sev": 2,
+   "dur": "1–3 hours",
+   "freq": "Weekly",
+   "imp": [
+    "Work / class"
+   ],
+   "cyc": "Day 1",
+   "notes": "Mild cramps in the morning only.",
+   "ctx": "Pelvis"
+  },
+  {
+   "id": "seed-16",
+   "daysAgo": 76,
+   "time": "21:15",
+   "cat": "Mood / emotional",
+   "name": "Low mood",
+   "sev": 2,
+   "dur": "Several hours",
+   "freq": "Occasional",
+   "imp": [
+    "Relationships"
+   ],
+   "cyc": "Later in cycle",
+   "notes": "Felt flat and wanted to stay in for the evening.",
+   "ctx": "Sleep"
+  },
+  {
+   "id": "seed-17",
+   "daysAgo": 86,
+   "time": "12:40",
+   "cat": "Bleeding / flow changes",
+   "name": "Heavier than usual",
+   "sev": 3,
+   "dur": "Multiple days",
+   "freq": "Occasional",
+   "imp": [
+    "Daily tasks"
+   ],
+   "cyc": "Day 2",
+   "notes": "Needed to change products more often than usual on the second day.",
+   "ctx": "Heavier than usual"
+  }
+ ]
+}
+/* Generated by tools/build-seed.py from data/sample-*.json. Do not edit by hand. */
+window.HERPATH_SEED={"symptoms": {"entries": [{"id": "seed-01", "daysAgo": 2, "time": "21:30", "cat": "Pain", "name": "Lower abdominal pain", "sev": 4, "dur": "Several hours", "freq": "Weekly", "imp": ["Work / class", "Sleep"], "cyc": "Day 2", "notes": "Cramping built up through the afternoon and kept me awake until after midnight.", "ctx": "Lower tummy"}, {"id": "seed-02", "daysAgo": 3, "time": "08:15", "cat": "Pain", "name": "Pelvic cramps", "sev": 4, "dur": "1–3 hours", "freq": "Weekly", "imp": ["Work / class"], "cyc": "Day 1", "notes": "Had to leave a meeting early. A hot water bottle helped a little.", "ctx": "Pelvis"}, {"id": "seed-03", "daysAgo": 5, "time": "22:10", "cat": "Sleep", "name": "Waking often", "sev": 3, "dur": "Overnight", "freq": "Several times a week", "imp": ["Sleep", "Daily tasks"], "cyc": "Later in cycle", "notes": "Woke three or four times and felt flat the next morning.", "ctx": "Staying asleep"}, {"id": "seed-04", "daysAgo": 9, "time": "14:00", "cat": "Fatigue / low energy", "name": "Low energy", "sev": 3, "dur": "All day", "freq": "Several times a week", "imp": ["Daily tasks", "Exercise"], "cyc": "Later in cycle", "notes": "Skipped my usual walk. Only about five hours of sleep the night before.", "ctx": "Short"}, {"id": "seed-05", "daysAgo": 13, "time": "11:20", "cat": "Headache", "name": "Headache", "sev": 2, "dur": "1–3 hours", "freq": "Occasional", "imp": ["Work / class"], "cyc": "Later in cycle", "notes": "Dull ache behind the eyes after a long stretch at the screen.", "ctx": "Behind the eyes"}, {"id": "seed-06", "daysAgo": 19, "time": "19:45", "cat": "Mood / emotional", "name": "Irritability", "sev": 3, "dur": "Several hours", "freq": "Occasional", "imp": ["Relationships"], "cyc": "Later in cycle", "notes": "Short-tempered with family in the evening after a busy week.", "ctx": "Stress"}, {"id": "seed-07", "daysAgo": 24, "time": "13:30", "cat": "Digestive", "name": "Bloating", "sev": 2, "dur": "Several hours", "freq": "Occasional", "imp": ["Daily tasks"], "cyc": "Later in cycle", "notes": "Noticeable after lunch and settled by evening.", "ctx": "After eating"}, {"id": "seed-08", "daysAgo": 30, "time": "20:40", "cat": "Pain", "name": "Lower abdominal pain", "sev": 3, "dur": "Several hours", "freq": "Weekly", "imp": ["Sleep"], "cyc": "Day 2", "notes": "Dull, constant ache. Fell asleep later than usual.", "ctx": "Lower tummy"}, {"id": "seed-09", "daysAgo": 31, "time": "09:00", "cat": "Pain", "name": "Pelvic cramps", "sev": 3, "dur": "1–3 hours", "freq": "Weekly", "imp": ["Work / class"], "cyc": "Day 1", "notes": "Manageable, and I finished the working day.", "ctx": "Pelvis"}, {"id": "seed-10", "daysAgo": 36, "time": "22:30", "cat": "Sleep", "name": "Trouble falling asleep", "sev": 2, "dur": "Overnight", "freq": "Occasional", "imp": ["Sleep"], "cyc": "Later in cycle", "notes": "Mind busy about work; took about an hour to fall asleep.", "ctx": "Falling asleep"}, {"id": "seed-11", "daysAgo": 41, "time": "15:10", "cat": "Fatigue / low energy", "name": "Low energy", "sev": 2, "dur": "All day", "freq": "Weekly", "imp": ["Daily tasks"], "cyc": "Later in cycle", "notes": "Slow afternoon, better after a short walk.", "ctx": "Good"}, {"id": "seed-12", "daysAgo": 47, "time": "10:05", "cat": "Headache", "name": "Migraine-like headache", "sev": 3, "dur": "Several hours", "freq": "Occasional", "imp": ["Work / class", "Daily tasks"], "cyc": "Later in cycle", "notes": "One-sided with light sensitivity. Rested in a dark room.", "ctx": "One side"}, {"id": "seed-13", "daysAgo": 55, "time": "18:20", "cat": "Digestive", "name": "Nausea", "sev": 2, "dur": "1–3 hours", "freq": "First time", "imp": [], "cyc": "Later in cycle", "notes": "Mild queasiness in the evening, gone by bedtime.", "ctx": "Not related"}, {"id": "seed-14", "daysAgo": 58, "time": "20:00", "cat": "Pain", "name": "Lower abdominal pain", "sev": 2, "dur": "1–3 hours", "freq": "Weekly", "imp": [], "cyc": "Day 2", "notes": "Mild ache, eased with rest.", "ctx": "Lower tummy"}, {"id": "seed-15", "daysAgo": 59, "time": "08:30", "cat": "Pain", "name": "Pelvic cramps", "sev": 2, "dur": "1–3 hours", "freq": "Weekly", "imp": ["Work / class"], "cyc": "Day 1", "notes": "Mild cramps in the morning only.", "ctx": "Pelvis"}, {"id": "seed-16", "daysAgo": 76, "time": "21:15", "cat": "Mood / emotional", "name": "Low mood", "sev": 2, "dur": "Several hours", "freq": "Occasional", "imp": ["Relationships"], "cyc": "Later in cycle", "notes": "Felt flat and wanted to stay in for the evening.", "ctx": "Sleep"}, {"id": "seed-17", "daysAgo": 86, "time": "12:40", "cat": "Bleeding / flow changes", "name": "Heavier than usual", "sev": 3, "dur": "Multiple days", "freq": "Occasional", "imp": ["Daily tasks"], "cyc": "Day 2", "notes": "Needed to change products more often than usual on the second day.", "ctx": "Heavier than usual"}]}, "appointments": {"visits": [{"id": "seed-v1", "daysAgo": 40, "top": "Cramps getting worse over two cycles and disturbed sleep. Suggested keeping a symptom diary for two more cycles.", "tests": "Possible blood test if symptoms continue", "nextInDays": 10}, {"id": "seed-v2", "daysAgo": 118, "top": "Routine check-up. No new concerns raised at the time.", "tests": "", "nextInDays": null}]}, "notifications": {"notifs": [{"id": "seed-n1", "hoursAgo": 50, "title": "Entry saved", "body": "Lower abdominal pain was saved to this browser.", "kind": "success", "read": false}, {"id": "seed-n2", "hoursAgo": 26, "title": "Follow-up visit noted", "body": "A follow-up visit is listed in your appointment notes. Review your summary before you go.", "kind": "info", "read": false}, {"id": "seed-n3", "hoursAgo": 216, "title": "Gentle reminder", "body": "You chose to be reminded. It had been 7 days since your previous entry.", "kind": "reminder", "read": true}, {"id": "seed-n4", "hoursAgo": 600, "title": "Welcome to HERPATH", "body": "Record how you feel, spot changes over time and prepare for appointments.", "kind": "info", "read": true}]}, "profile": {"profile": {"name": "Aanya Rao"}, "passport": {"info": {"blood": "O+", "allergies": "Penicillin", "meds": "Over-the-counter pain relief as needed", "conds": "Period pain (self-reported)", "vacc": "HPV series completed", "ecn": "Meera Rao (sister)", "ecp": "+91 90000 00000"}}, "preparation": {"concern": "Period pain has become stronger over the last two cycles and is disturbing my sleep.", "summary": "Cramps now start on day 1 and can last several hours. I have also had more broken sleep and low energy in the days before my period.", "questions": ["Could we discuss how long these symptoms have been occurring?", "What should I record or bring to a follow-up appointment?", "What should I do if my symptoms change before my next appointment?"], "days": 90, "sel": {"health": true, "name": true}}, "library": {"read": ["pp", "prep", "desc"], "bookmarks": ["pp", "tl"]}}};
